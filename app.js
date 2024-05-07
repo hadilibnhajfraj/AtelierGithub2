@@ -2,11 +2,13 @@
 
 // Fonction pour calculer la puissance d'un nombre
 function puissance(nombre, exposant) {
+
   let resultat = 1;
   for (let i = 1; i < exposant; i++) {
     resultat *= nombre;
+
   }
-  return resultat;
+  return r;
 }
 
 // amina*
