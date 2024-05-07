@@ -2,9 +2,11 @@
 
 // Fonction pour calculer la puissance d'un nombre
 function puissance(nombre, exposant) {
-  let r = 1;
-  for (let i = 0; i < exposant; i++) {
-    r *= nombre;
+
+  let resultat = 1;
+  for (let i = 1; i < exposant; i++) {
+    resultat *= nombre;
+
   }
   return r;
 }
